@@ -101,7 +101,7 @@ public class JRipClassifier {
                 if (!pruning) {
                     options = new String[3];
                     options[0] = "-N";
-                    options[1] = "1.0";
+                    options[1] = "0.5"; //Here is the changed rule for RIPPER
                     options[2] = "-P";
                 } else {
                     options = new String[2];
